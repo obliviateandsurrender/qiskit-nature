@@ -22,10 +22,10 @@ class ReverseJordanWignerMapper:
     """Reverse Jordan-Wigner mapping."""
 
     def map(self, second_q_op: OperatorBase) -> FermionicOp:
-        """Maps a class:`PauliSumOp` to a `FermionicOp`.
+        """Maps a class:`OperatorBase` to a `FermionicOp`.
 
         Args:
-            second_q_op: the :class:`PauliSumOp` to be mapped.
+            second_q_op: the :class:`OperatorBase` to be mapped.
 
         Returns:
             The `FermionicOp` corresponding to the Hamiltonian in the Fermionic space.
