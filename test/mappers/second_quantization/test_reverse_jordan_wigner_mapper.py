@@ -29,6 +29,7 @@ class TestReverseJordanWignerMapper(QiskitNatureTestCase):
 
     def test_mapping(self):
         """Test mapping to qubit operator"""
-
+        raise NotImplementedError()
+        
 if __name__ == "__main__":
     unittest.main()
