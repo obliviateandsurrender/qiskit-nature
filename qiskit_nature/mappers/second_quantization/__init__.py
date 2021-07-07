@@ -82,7 +82,7 @@ __all__ = [
     "QubitMapper",
     "SpinMapper",
     "VibrationalMapper",
-    "ReverseBravyiKitaevMapper,
+    "ReverseBravyiKitaevMapper",
     "ReverseJordanWignerMapper",
     "ReverseParityMapper",
 ]
