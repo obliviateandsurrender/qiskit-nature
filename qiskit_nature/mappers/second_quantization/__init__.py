@@ -69,6 +69,7 @@ from .parity_mapper import ParityMapper
 from .qubit_mapper import QubitMapper
 from .spin_mapper import SpinMapper
 from .vibrational_mapper import VibrationalMapper
+from .reverse_bravyi_kitaev_mapper import ReverseBravyiKitaevMapper
 from .reverse_jordan_wigner_mapper import ReverseJordanWignerMapper
 from .reverse_parity_mapper import ReverseParityMapper
 __all__ = [
@@ -81,6 +82,7 @@ __all__ = [
     "QubitMapper",
     "SpinMapper",
     "VibrationalMapper",
+    "ReverseBravyiKitaevMapper,
     "ReverseJordanWignerMapper",
     "ReverseParityMapper",
 ]
